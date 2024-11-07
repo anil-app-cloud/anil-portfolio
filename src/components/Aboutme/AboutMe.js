@@ -15,13 +15,13 @@ export default function AboutMe() {
       ]
     },
     {
-      title: 'Dugong Global Services - Team Leader',
-      duration: 'October 2023 - Present',
+      title: 'Full Stack Developer | Nxtwave Graduate',
+      duration: 'August 2024 - present',
       description: [
-        'Played a major role in this startup, acting as a team leader and handling HR-related tasks.',
-        'Led a team working on smart contracts in Rust, providing debugging support and code solutions.',
-        'Successfully uploaded several crates to crates.io under the name "dharitri".',
-        'Facilitated team collaboration and ensured project milestones were met efficiently.'
+        'Advance and detail-oriented full stack developer with a comprehensive foundation in HTML, CSS, JavaScript, Python, SQL, Node.js, and React.js, acquired through rigorous training at Nxtwave.',
+        'Experienced in developing responsive, user-friendly applications and adept at managing both frontend and backend tasks.',
+        'Built and showcased a variety of projects, demonstrating proficiency in modern web development practices and a commitment to creating efficient, scalable applications',
+        'Eager to bring a strong technical foundation and hands-on project experience to a collaborative development team..'
       ]
     }
   ];

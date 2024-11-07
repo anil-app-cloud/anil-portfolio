@@ -1,4 +1,4 @@
-
+import {Routes, Route} from "react-router-dom"
 import './App.css';
 import Home from './components/Home/home';
 import Navbar from './components/navbar/navbar';
@@ -11,11 +11,13 @@ function App() {
   return (
     <div className='base'>
       <Navbar />
-      <Home />
-      <AboutMe />
-      <Projects />
-      <ContactMe />
-      <MainFooter />
+      <Routes>
+        <Route exact path="/" element={<Home />}/>
+        <Route exact path="/about" element={<AboutMe />}/>
+        <Route exact path="/contact" element={<ContactMe />}/>
+        <Route exact path="/projects" element={<Projects />}/>
+      </Routes>
+      <MainFooter /> 
     </div>
   );
 }
